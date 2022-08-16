@@ -1,0 +1,28 @@
+{
+  "name": "csv-parse-v",
+  "version": "0.0.1",
+  "description": "ES Modules style CSV Parser",
+  "main": "src/parse.js",
+  "scripts": {
+    "test": "vitest",
+    "fmt": "deno fmt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinshin86/csv-parse-v.git"
+  },
+  "keywords": [
+    "csv parser",
+    "csv parse",
+    "es modules"
+  ],
+  "author": "shinshin86 <shinshin86npm@gmail.com> (https://github.com/shinshin86)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shinshin86/csv-parse-v/issues"
+  },
+  "homepage": "https://github.com/shinshin86/csv-parse-v#readme",
+  "devDependencies": {
+    "vitest": "^0.21.1"
+  }
+}
