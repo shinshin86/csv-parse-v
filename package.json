@@ -1,6 +1,6 @@
 {
   "name": "csv-parse-v",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ES Modules style CSV Parser",
   "main": "lib/parse.js",
   "types": "lib/parse.d.ts",
