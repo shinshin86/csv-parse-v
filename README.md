@@ -1,4 +1,6 @@
 # csv-parse-v
+[![Test](https://github.com/shinshin86/csv-parse-v/actions/workflows/test.yml/badge.svg)](https://github.com/shinshin86/csv-parse-v/actions/workflows/test.yml)
+
 ![logo](./logo/logo.png)
 
 ES Modules style CSV Parser
