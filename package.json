@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "ES Modules style CSV Parser",
   "main": "lib/parse.js",
+  "type": "module",
   "scripts": {
     "test": "vitest",
     "fmt": "deno fmt"
