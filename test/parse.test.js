@@ -235,4 +235,10 @@ r2  💨":"2022-02-01T00:00:00.000Z":"2022-02-
     expect(result[1].createdAt).eq("2022-02-01T00:00:00.000Z");
     expect(result[1].updatedAt).eq("2022-02-\n02T23:59:59.123Z");
   });
+
+  it("Empty character pattern", () => {
+    const csv = "";
+
+    expect(() => parse(csv)).toThrowError(/This is invalid csv data/);
+  });
 });
