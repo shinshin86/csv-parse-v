@@ -5,17 +5,46 @@
 
 ES Modules style CSV Parser
 
+## Install
+
+```sh
+# npm
+npm i csv-parse-v
+
+# yarn
+yarn add csv-parse-v
+
+# pnpm
+pnpm add csv-parse-v
+```
+
 ## Usage
+
+```javascript
+import parse from 'csv-parse-v';
+
+const csv = `id,title,text,createdAt,updatedAt
+1,foo,bar,2022-01-01T00:00:00.000Z,2022-01-02T23:59:59.123Z
+2,foo2,bar2💨,2022-02-01T00:00:00.000Z,2022-02-02T23:59:59.123Z`;
+
+const result = parse(csv);
+console.log(result);
+```
+
+For use within HTML (use `esm` sample).
 
 ```html
 <html>
   <head>
     <meta charset="UTF-8">
     <script type="module">
-      import parse from './parse.js';
+      // Use esm.sh
+      import parse from 'https://esm.sh/csv-parse-v';
+
       const csv = `id,title,text,createdAt,updatedAt
 1,foo,bar,2022-01-01T00:00:00.000Z,2022-01-02T23:59:59.123Z
 2,foo2,bar2💨,2022-02-01T00:00:00.000Z,2022-02-02T23:59:59.123Z`;
+
       const result = parse(csv);
       alert(JSON.stringify(result));
     </script>
