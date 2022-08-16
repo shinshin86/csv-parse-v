@@ -2,7 +2,7 @@
   "name": "csv-parse-v",
   "version": "0.0.1",
   "description": "ES Modules style CSV Parser",
-  "main": "src/parse.js",
+  "main": "lib/parse.js",
   "scripts": {
     "test": "vitest",
     "fmt": "deno fmt"
