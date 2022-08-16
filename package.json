@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "ES Modules style CSV Parser",
   "main": "lib/parse.js",
+  "types": "lib/parse.d.ts",
   "type": "module",
   "scripts": {
     "test": "vitest",
