@@ -9,7 +9,7 @@ ES Modules style CSV Parser
 
 ```sh
 # npm
-npm i csv-parse-v
+npm i --save csv-parse-v
 
 # yarn
 yarn add csv-parse-v
