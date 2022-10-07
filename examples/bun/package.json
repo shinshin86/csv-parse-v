@@ -1,0 +1,11 @@
+{
+  "name": "bun-example",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "^0.1.0"
+  },
+  "dependencies": {
+    "csv-parse-v": "^0.0.4"
+  }
+}
