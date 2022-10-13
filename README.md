@@ -92,7 +92,7 @@ npm run fmt
 
 ## License
 
-MIT
+[MIT](https://github.com/shinshin86/csv-parse-v/blob/main/LICENSE)
 
 ## Author
 
